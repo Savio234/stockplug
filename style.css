@@ -36,9 +36,6 @@ a {
 .center {
     text-align: center;
 }
-.flex-justify {
-    justify-content: center;
-}
 .flex-between {
     justify-content: space-between;
 }
@@ -47,12 +44,6 @@ a {
 }
 .flex-center {
     align-items: center;
-}
-.centering {
-    align-items: center;
-    align-content: center;
-    justify-content: center;
-    margin: 0 auto;
 }
 .padding-0 {
     padding: 0;
@@ -67,9 +58,6 @@ img, video {
 .w-100 {
     width: 100%;
 }
-.h-100 {
-    height: 100%;
-}
 .align-center {
     justify-content: center;
     align-items: center;
@@ -81,10 +69,6 @@ li, ul {
 ul {
     list-style-type: none;
 }
-.relative {
-    position: relative;
-}
-
 
 
 .header-row {
@@ -105,7 +89,7 @@ ul {
     display: none;
 }
 .watchlist-container {
-    margin: 0 10rem 29.3rem;
+    margin: 0 15rem 9rem;
 
 }
 .watchlist-header {
@@ -114,7 +98,7 @@ ul {
 .watchlist-h {
     font-family: Hauora;
     font-size: 6.4rem;
-    line-height: 2.4rem;
+    line-height: 8.7rem;
     color: #00030a;
     opacity: 0.4;
     font-weight: 700;
@@ -122,13 +106,11 @@ ul {
 .watchlist-table-headers {
     background: #d9d9d9;
     padding: 0.8rem 0;
-    width: 113rem;
 }
 .watchlist-table-body {
     background: #fff;
     padding: 0.8rem 0;
     border-bottom: 0.1rem solid rgba(0, 0, 0, 0.2);
-    width: 113rem;
 }
 .watchlist-symbol {
     width: 10.6rem;
@@ -263,6 +245,9 @@ ul {
     background: #000718;
     padding: 4.8rem 10rem 2.5rem;
 }
+.footer-content {
+    border-bottom: 0.1rem solid #fff;
+}
 .footer-logo {
     width: 17.9rem;
     height: 2.6rem;
@@ -299,6 +284,9 @@ ul {
 .footer-nav-item {
     margin-bottom: 2.4rem;
 }
+.watchlist-table {
+    position: relative;
+}
 .footer-nav-h {
     font-family: Hauora;
     font-size: 1.6rem;
@@ -312,6 +300,13 @@ ul {
     line-height: 2.4rem;
     font-weight: 600;
     color: #f4f5f6;
+}
+.copyright-h {
+    font-family: Hauora;
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+    font-weight: 700;
+    color: #fff;
 }
 .footer-logo-container {
     margin-right: 41rem;
@@ -354,3 +349,77 @@ ul {
     line-height: 2.4rem;
     font-weight: 700;
 }
+
+
+@media (max-width: 1023px) {
+    html {
+        font-size: calc(100vw/1023 * 10);
+    }
+    .header-row {
+        padding: 2.4rem 5rem;
+    }
+    .watchlist-container {
+        margin: 0 6rem 6rem;
+    }
+    .watchlist-symbol {
+        width: 9.5rem;
+    }
+    .footer-container {
+        padding: 4.8rem 5rem 2.5rem;
+    }
+    .footer-logo-container {
+        margin-right: 11rem;
+    }
+    .watchlist-table-headers, .watchlist-table-body {
+        width: 93rem;
+    }
+}
+
+@media (max-width: 650px) {
+    html {
+        font-size: calc(100vw/650 * 10);
+    }
+    .footer-content {
+        flex-direction: column;
+    }
+    .watchlist-header {
+        margin-bottom: 4rem;
+    }
+    .footer-logo-container {
+        margin: 0 0 6rem 0;
+    }
+    .watchlist-container {
+        margin: 0 2rem 5rem;
+    }
+    .watchlist-table {
+        overflow-y: scroll;
+    }
+    .header-row {
+        padding: 2.4rem 4rem;
+        margin-bottom: 4rem;
+    }
+}
+
+@media (max-width: 485px) {
+    html {
+        font-size: calc(100vw/485 * 10);
+    }
+    .watchlist-header {
+        margin-bottom: 3rem;
+    }
+    .watchlist-h {
+        line-height: 8.7rem;
+    }
+    .cookies-container {
+        margin: 0 2rem 9rem;
+    }
+    .cookies-text-container {
+        padding: 3.2rem 1rem 9.5rem;
+    }
+    .header-row {
+        padding: 2.4rem 2rem;
+        margin-bottom: 2rem;
+    }
+}
+
+
