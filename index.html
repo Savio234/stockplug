@@ -1,0 +1,555 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=7">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" href="img/logo.svg" type="image/svg">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Home | StockPlug</title>
+</head>
+<body>
+    
+
+    <div id="root">
+
+        <header id="header">
+
+            <div class="header-row flex flex-center w-100">
+                <div class="nav-container">
+                    <img src="img/nav.svg" alt="">
+                </div>
+
+                <div class="logo-container">
+                    <img src="img/logo.svg" alt="">
+                </div>
+
+            </div>
+
+        </header>
+
+
+
+        <header id="mob-header">
+
+            <div class="mob-header w-100 flex flex-between">
+
+                
+
+            </div>
+
+        </header>
+
+
+
+        <main id="main">
+
+            <section id="hero-section">
+
+                <div class="watchlist-container">
+                    <div class="watchlist-header">
+                        <h1 class="margin-0 watchlist-h">
+                            Watchlist
+                        </h1>
+                    </div>
+
+                    <div class="watchlist-table">
+
+                        <div class="watchlist-table-headers flex-center flex">
+                            <div class="watchlist-symbol">
+                                <h3 class="margin-0 symbol-h">Symbol</h3>
+                            </div>
+                            <div class="watchlist-name">
+                                <h3 class="margin-0 symbol-h name-h">Name</h3>
+                            </div>
+                            <div class="watchlist-last watchlist-symbol">
+                                <h3 class="margin-0 symbol-h last-h">Last</h3>
+                            </div>
+                            <div class="watchlist-chg watchlist-symbol">
+                                <h3 class="margin-0 symbol-h chg-h">Chg</h3>
+                            </div>
+                            <div class="watchlist-percent watchlist-symbol">
+                                <h3 class="margin-0 symbol-h percent-h">%Chg</h3>
+                            </div>
+                            <div class="watchlist-open watchlist-symbol">
+                                <h3 class="margin-0 symbol-h open-h">Open</h3>
+                            </div>
+                            <div class="watchlist-high watchlist-symbol">
+                                <h3 class="margin-0 symbol-h high-h">High</h3>
+                            </div>
+                            <div class="watchlist-low watchlist-symbol">
+                                <h3 class="margin-0 symbol-h low-h">Low</h3>
+                            </div>
+                            <div class="watchlist-volume watchlist-symbol">
+                                <h3 class="margin-0 symbol-h volume-h">Volume</h3>
+                            </div>
+                        </div>
+
+                        <div class="watchlist-table-body flex-center flex">
+                            <div class="watchlist-symbol watchlist-symbol-bg">
+                                <h3 class="margin-0 symbol-bg-h">TSLA</h3>
+                            </div>
+                            <div class="watchlist-name">
+                                <h3 class="margin-0 name-h">Tesla Inc</h3>
+                            </div>
+                            <div class="watchlist-last watchlist-symbol">
+                                <h3 class="margin-0 name-h green last-h">151.84</h3>
+                            </div>
+                            <div class="watchlist-chg watchlist-symbol">
+                                <h3 class="margin-0 name-h green chg-h">8.34</h3>
+                            </div>
+                            <div class="watchlist-percent watchlist-symbol">
+                                <h3 class="margin-0 name-h percent-h">2.02%</h3>
+                            </div>
+                            <div class="watchlist-open watchlist-symbol">
+                                <h3 class="margin-0 name-h open-h">216.85</h3>
+                            </div>
+                            <div class="watchlist-high watchlist-symbol">
+                                <h3 class="margin-0 name-h high-h">217.51</h3>
+                            </div>
+                            <div class="watchlist-low watchlist-symbol">
+                                <h3 class="margin-0 name-h low-h">211.53</h3>
+                            </div>
+                            <div class="watchlist-volume watchlist-symbol">
+                                <h3 class="margin-0 name-h volume-h">7.86m</h3>
+                            </div>
+                        </div>
+                        <div class="watchlist-table-body flex-center flex">
+                            <div class="watchlist-symbol watchlist-symbol-bg2">
+                                <h3 class="margin-0 symbol-bg-h">GOOGL</h3>
+                            </div>
+                            <div class="watchlist-name">
+                                <h3 class="margin-0 name-h">Alphabelt Inc Class A</h3>
+                            </div>
+                            <div class="watchlist-last watchlist-symbol">
+                                <h3 class="margin-0 name-h green last-h">151.84</h3>
+                            </div>
+                            <div class="watchlist-chg watchlist-symbol">
+                                <h3 class="margin-0 name-h green chg-h">3.01</h3>
+                            </div>
+                            <div class="watchlist-percent watchlist-symbol">
+                                <h3 class="margin-0 name-h percent-h">2.02%</h3>
+                            </div>
+                            <div class="watchlist-open watchlist-symbol">
+                                <h3 class="margin-0 name-h open-h">156.85</h3>
+                            </div>
+                            <div class="watchlist-high watchlist-symbol">
+                                <h3 class="margin-0 name-h high-h">157.51</h3>
+                            </div>
+                            <div class="watchlist-low watchlist-symbol">
+                                <h3 class="margin-0 name-h low-h">151.53</h3>
+                            </div>
+                            <div class="watchlist-volume watchlist-symbol">
+                                <h3 class="margin-0 name-h volume-h">5.86m</h3>
+                            </div>
+                        </div>
+                        <div class="watchlist-table-body flex-center flex">
+                            <div class="watchlist-symbol watchlist-symbol-bg3">
+                                <h3 class="margin-0 symbol-bg-h">MSFT</h3>
+                            </div>
+                            <div class="watchlist-name">
+                                <h3 class="margin-0 name-h">Microsoft Corp</h3>
+                            </div>
+                            <div class="watchlist-last watchlist-symbol">
+                                <h3 class="margin-0 name-h green last-h">151.84</h3>
+                            </div>
+                            <div class="watchlist-chg watchlist-symbol">
+                                <h3 class="margin-0 name-h green chg-h">3.01</h3>
+                            </div>
+                            <div class="watchlist-percent watchlist-symbol">
+                                <h3 class="margin-0 name-h percent-h">2.02%</h3>
+                            </div>
+                            <div class="watchlist-open watchlist-symbol">
+                                <h3 class="margin-0 name-h open-h">156.85</h3>
+                            </div>
+                            <div class="watchlist-high watchlist-symbol">
+                                <h3 class="margin-0 name-h high-h">157.51</h3>
+                            </div>
+                            <div class="watchlist-low watchlist-symbol">
+                                <h3 class="margin-0 name-h low-h">151.53</h3>
+                            </div>
+                            <div class="watchlist-volume watchlist-symbol">
+                                <h3 class="margin-0 name-h volume-h">5.86m</h3>
+                            </div>
+                        </div>
+                        <div class="watchlist-table-body flex-center flex">
+                            <div class="watchlist-symbol watchlist-symbol-bg4">
+                                <h3 class="margin-0 symbol-bg-h">PYPL</h3>
+                            </div>
+                            <div class="watchlist-name">
+                                <h3 class="margin-0 name-h">PayPal Holdings Inc</h3>
+                            </div>
+                            <div class="watchlist-last watchlist-symbol">
+                                <h3 class="margin-0 name-h green last-h">151.84</h3>
+                            </div>
+                            <div class="watchlist-chg watchlist-symbol">
+                                <h3 class="margin-0 name-h green chg-h">3.01</h3>
+                            </div>
+                            <div class="watchlist-percent watchlist-symbol">
+                                <h3 class="margin-0 name-h percent-h">2.02%</h3>
+                            </div>
+                            <div class="watchlist-open watchlist-symbol">
+                                <h3 class="margin-0 name-h open-h">156.85</h3>
+                            </div>
+                            <div class="watchlist-high watchlist-symbol">
+                                <h3 class="margin-0 name-h high-h">157.51</h3>
+                            </div>
+                            <div class="watchlist-low watchlist-symbol">
+                                <h3 class="margin-0 name-h low-h">151.53</h3>
+                            </div>
+                            <div class="watchlist-volume watchlist-symbol">
+                                <h3 class="margin-0 name-h volume-h">5.86m</h3>
+                            </div>
+                        </div>
+                        <div class="watchlist-table-body flex-center flex">
+                            <div class="watchlist-symbol watchlist-symbol-bg5">
+                                <h3 class="margin-0 symbol-bg-h">AAPL</h3>
+                            </div>
+                            <div class="watchlist-name">
+                                <h3 class="margin-0 name-h">Apple Inc</h3>
+                            </div>
+                            <div class="watchlist-last watchlist-symbol">
+                                <h3 class="margin-0 name-h green last-h">151.84</h3>
+                            </div>
+                            <div class="watchlist-chg watchlist-symbol">
+                                <h3 class="margin-0 name-h green chg-h">3.01</h3>
+                            </div>
+                            <div class="watchlist-percent watchlist-symbol">
+                                <h3 class="margin-0 name-h percent-h">2.02%</h3>
+                            </div>
+                            <div class="watchlist-open watchlist-symbol">
+                                <h3 class="margin-0 name-h open-h">156.85</h3>
+                            </div>
+                            <div class="watchlist-high watchlist-symbol">
+                                <h3 class="margin-0 name-h high-h">157.51</h3>
+                            </div>
+                            <div class="watchlist-low watchlist-symbol">
+                                <h3 class="margin-0 name-h low-h">151.53</h3>
+                            </div>
+                            <div class="watchlist-volume watchlist-symbol">
+                                <h3 class="margin-0 name-h volume-h">5.86m</h3>
+                            </div>
+                        </div>
+                        <div class="watchlist-table-body flex-center flex">
+                            <div class="watchlist-symbol watchlist-symbol-bg6">
+                                <h3 class="margin-0 symbol-bg-h">NFLX</h3>
+                            </div>
+                            <div class="watchlist-name">
+                                <h3 class="margin-0 name-h">Netflix Inc</h3>
+                            </div>
+                            <div class="watchlist-last watchlist-symbol">
+                                <h3 class="margin-0 name-h green last-h">151.84</h3>
+                            </div>
+                            <div class="watchlist-chg watchlist-symbol">
+                                <h3 class="margin-0 name-h green chg-h">3.01</h3>
+                            </div>
+                            <div class="watchlist-percent watchlist-symbol">
+                                <h3 class="margin-0 name-h percent-h">2.02%</h3>
+                            </div>
+                            <div class="watchlist-open watchlist-symbol">
+                                <h3 class="margin-0 name-h open-h">156.85</h3>
+                            </div>
+                            <div class="watchlist-high watchlist-symbol">
+                                <h3 class="margin-0 name-h high-h">157.51</h3>
+                            </div>
+                            <div class="watchlist-low watchlist-symbol">
+                                <h3 class="margin-0 name-h low-h">151.53</h3>
+                            </div>
+                            <div class="watchlist-volume watchlist-symbol">
+                                <h3 class="margin-0 name-h volume-h">5.86m</h3>
+                            </div>
+                        </div>
+                        <div class="watchlist-table-body flex-center flex">
+                            <div class="watchlist-symbol watchlist-symbol-bg7">
+                                <h3 class="margin-0 symbol-bg-h">NVDA</h3>
+                            </div>
+                            <div class="watchlist-name">
+                                <h3 class="margin-0 name-h">NVIDIA Coporation</h3>
+                            </div>
+                            <div class="watchlist-last watchlist-symbol">
+                                <h3 class="margin-0 name-h green last-h">151.84</h3>
+                            </div>
+                            <div class="watchlist-chg watchlist-symbol">
+                                <h3 class="margin-0 name-h green chg-h">3.01</h3>
+                            </div>
+                            <div class="watchlist-percent watchlist-symbol">
+                                <h3 class="margin-0 name-h percent-h">2.02%</h3>
+                            </div>
+                            <div class="watchlist-open watchlist-symbol">
+                                <h3 class="margin-0 name-h open-h">156.85</h3>
+                            </div>
+                            <div class="watchlist-high watchlist-symbol">
+                                <h3 class="margin-0 name-h high-h">157.51</h3>
+                            </div>
+                            <div class="watchlist-low watchlist-symbol">
+                                <h3 class="margin-0 name-h low-h">151.53</h3>
+                            </div>
+                            <div class="watchlist-volume watchlist-symbol">
+                                <h3 class="margin-0 name-h volume-h">5.86m</h3>
+                            </div>
+                        </div>
+                        <div class="watchlist-table-body flex-center flex">
+                            <div class="watchlist-symbol watchlist-symbol-bg8">
+                                <h3 class="margin-0 symbol-bg-h">GOOG</h3>
+                            </div>
+                            <div class="watchlist-name">
+                                <h3 class="margin-0 name-h">Alphabelt Inc Class C</h3>
+                            </div>
+                            <div class="watchlist-last watchlist-symbol">
+                                <h3 class="margin-0 name-h green last-h">151.84</h3>
+                            </div>
+                            <div class="watchlist-chg watchlist-symbol">
+                                <h3 class="margin-0 name-h green chg-h">3.01</h3>
+                            </div>
+                            <div class="watchlist-percent watchlist-symbol">
+                                <h3 class="margin-0 name-h percent-h">2.02%</h3>
+                            </div>
+                            <div class="watchlist-open watchlist-symbol">
+                                <h3 class="margin-0 name-h open-h">156.85</h3>
+                            </div>
+                            <div class="watchlist-high watchlist-symbol">
+                                <h3 class="margin-0 name-h high-h">157.51</h3>
+                            </div>
+                            <div class="watchlist-low watchlist-symbol">
+                                <h3 class="margin-0 name-h low-h">151.53</h3>
+                            </div>
+                            <div class="watchlist-volume watchlist-symbol">
+                                <h3 class="margin-0 name-h volume-h">5.86m</h3>
+                            </div>
+                        </div>
+                        <div class="watchlist-table-body flex-center flex">
+                            <div class="watchlist-symbol watchlist-symbol-bg9">
+                                <h3 class="margin-0 symbol-bg-h">QQQ</h3>
+                            </div>
+                            <div class="watchlist-name">
+                                <h3 class="margin-0 name-h">Invesco QQQ Trust Series 1</h3>
+                            </div>
+                            <div class="watchlist-last watchlist-symbol">
+                                <h3 class="margin-0 name-h green last-h">151.84</h3>
+                            </div>
+                            <div class="watchlist-chg watchlist-symbol">
+                                <h3 class="margin-0 name-h green chg-h">3.01</h3>
+                            </div>
+                            <div class="watchlist-percent watchlist-symbol">
+                                <h3 class="margin-0 name-h percent-h">2.02%</h3>
+                            </div>
+                            <div class="watchlist-open watchlist-symbol">
+                                <h3 class="margin-0 name-h open-h">156.85</h3>
+                            </div>
+                            <div class="watchlist-high watchlist-symbol">
+                                <h3 class="margin-0 name-h high-h">157.51</h3>
+                            </div>
+                            <div class="watchlist-low watchlist-symbol">
+                                <h3 class="margin-0 name-h low-h">151.53</h3>
+                            </div>
+                            <div class="watchlist-volume watchlist-symbol">
+                                <h3 class="margin-0 name-h volume-h">5.86m</h3>
+                            </div>
+                        </div>
+                        <div class="watchlist-table-body flex-center flex">
+                            <div class="watchlist-symbol watchlist-symbol-bg10">
+                                <h3 class="margin-0 symbol-bg-h">BAC</h3>
+                            </div>
+                            <div class="watchlist-name">
+                                <h3 class="margin-0 name-h">Bank Of America Corp</h3>
+                            </div>
+                            <div class="watchlist-last watchlist-symbol">
+                                <h3 class="margin-0 name-h green last-h">151.84</h3>
+                            </div>
+                            <div class="watchlist-chg watchlist-symbol">
+                                <h3 class="margin-0 name-h green chg-h">3.01</h3>
+                            </div>
+                            <div class="watchlist-percent watchlist-symbol">
+                                <h3 class="margin-0 name-h percent-h">2.02%</h3>
+                            </div>
+                            <div class="watchlist-open watchlist-symbol">
+                                <h3 class="margin-0 name-h open-h">156.85</h3>
+                            </div>
+                            <div class="watchlist-high watchlist-symbol">
+                                <h3 class="margin-0 name-h high-h">157.51</h3>
+                            </div>
+                            <div class="watchlist-low watchlist-symbol">
+                                <h3 class="margin-0 name-h low-h">151.53</h3>
+                            </div>
+                            <div class="watchlist-volume watchlist-symbol">
+                                <h3 class="margin-0 name-h volume-h">5.86m</h3>
+                            </div>
+                        </div>
+                        <div class="watchlist-table-body flex-center flex">
+                            <div class="watchlist-symbol watchlist-symbol-bg11">
+                                <h3 class="margin-0 symbol-bg-h">AF</h3>
+                            </div>
+                            <div class="watchlist-name">
+                                <h3 class="margin-0 name-h">Air France KLM SA</h3>
+                            </div>
+                            <div class="watchlist-last watchlist-symbol">
+                                <h3 class="margin-0 name-h green last-h">151.84</h3>
+                            </div>
+                            <div class="watchlist-chg watchlist-symbol">
+                                <h3 class="margin-0 name-h green chg-h">3.01</h3>
+                            </div>
+                            <div class="watchlist-percent watchlist-symbol">
+                                <h3 class="margin-0 name-h percent-h">2.02%</h3>
+                            </div>
+                            <div class="watchlist-open watchlist-symbol">
+                                <h3 class="margin-0 name-h open-h">156.85</h3>
+                            </div>
+                            <div class="watchlist-high watchlist-symbol">
+                                <h3 class="margin-0 name-h high-h">157.51</h3>
+                            </div>
+                            <div class="watchlist-low watchlist-symbol">
+                                <h3 class="margin-0 name-h low-h">151.53</h3>
+                            </div>
+                            <div class="watchlist-volume watchlist-symbol">
+                                <h3 class="margin-0 name-h volume-h">5.86m</h3>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </section>
+
+        </main>
+
+
+
+        <footer id="footer">
+
+            <div class="footer-container">
+                <div class="footer-content flex">
+                    <div class="footer-logo-container">
+                        <div class="footer-logo">
+                            <img src="img/logo.svg" alt="">
+                        </div>
+
+                        <div class="desktop-container flex flex-center">
+                            <div class="desktop-logo">
+                                <img src="img/desktop.svg" alt="">
+                            </div>
+
+                            <div class="desktop-text-container">
+                                <div class="desktop-download">
+                                    <p class="margin-0 desktop-p">Download</p>
+                                </div>
+
+                                <div class="desktop-title">
+                                    <h3 class="margin-0 desktop-h">Desktop App</h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="footer-nav flex flex-between w-100">
+                        <div class="footer-nav-list">
+                            <ul>
+                                <li>
+                                    <div class="footer-nav-header">
+                                        <h3 class="margin-0 footer-nav-h">Get To Know Us</h3>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="footer-nav-item">
+                                        <h3 class="margin-0 footer-nav-p">About MyStockPlug</h3>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="footer-nav-item">
+                                        <h3 class="margin-0 footer-nav-p">Careers</h3>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="footer-nav-item">
+                                        <h3 class="margin-0 footer-nav-p">Stock Tips</h3>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="footer-nav-item">
+                                        <h3 class="margin-0 footer-nav-p">Contact Us</h3>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="footer-nav-list">
+                            <ul>
+                                <li>
+                                    <div class="footer-nav-header">
+                                        <h3 class="margin-0 footer-nav-h">Support</h3>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="footer-nav-item">
+                                        <h3 class="margin-0 footer-nav-p">Help</h3>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="footer-nav-item">
+                                        <h3 class="margin-0 footer-nav-p">FAQ</h3>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="footer-nav-item">
+                                        <h3 class="margin-0 footer-nav-p">News</h3>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="footer-nav-item">
+                                        <h3 class="margin-0 footer-nav-p">Blog</h3>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="footer-nav-list">
+                            <ul>
+                                <li>
+                                    <div class="footer-nav-header">
+                                        <h3 class="margin-0 footer-nav-h">Legal</h3>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="footer-nav-item">
+                                        <h3 class="margin-0 footer-nav-p">Terms of Use</h3>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="footer-nav-item">
+                                        <h3 class="margin-0 footer-nav-p">Privacy Policy</h3>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="footer-nav-item">
+                                        <h3 class="margin-0 footer-nav-p">Disclaimer</h3>
+                                    </div>
+                                </li>
+                                <li>
+                                    <a href="policy.html" target="_blank" rel="noopener noreferrer">
+                                        <div class="footer-nav-item">
+                                            <h3 class="margin-0 footer-nav-p">Cookies Policy</h3>
+                                        </div>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </footer>
+
+
+
+    </div>
+
+
+
+
+    <script src="main.js">
+        
+    </script>
+
+</body>
+</html>

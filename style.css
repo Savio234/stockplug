@@ -1,0 +1,356 @@
+html {
+    font-size: calc(100vw/1440 * 10);
+    scroll-behavior: smooth;
+}
+* {
+    box-sizing: border-box;
+}
+body {
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+    background: #f5f5f5;
+    height: auto;
+    overflow-x: hidden;
+}
+body::-webkit-scrollbar {
+    display: none;
+}
+@font-face {
+    font-family: Hauora;
+    src: url('fonts/Hauora-Regular.otf');
+}
+.flex {
+    display: flex;
+}
+.flex-wrap {
+    flex-wrap: wrap;
+}
+.flex-column {
+    flex-direction: column;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+.center {
+    text-align: center;
+}
+.flex-justify {
+    justify-content: center;
+}
+.flex-between {
+    justify-content: space-between;
+}
+.flex-even {
+    justify-content: space-evenly;
+}
+.flex-center {
+    align-items: center;
+}
+.centering {
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+.padding-0 {
+    padding: 0;
+}
+.margin-0 {
+    margin: 0;
+}
+img, video {
+    height: 100%;
+    width: 100%;
+}
+.w-100 {
+    width: 100%;
+}
+.h-100 {
+    height: 100%;
+}
+.align-center {
+    justify-content: center;
+    align-items: center;
+}
+li, ul {
+    padding: 0;
+    margin: 0;
+}
+ul {
+    list-style-type: none;
+}
+.relative {
+    position: relative;
+}
+
+
+
+.header-row {
+    padding: 2.4rem 10rem;
+    background: #000718;
+    margin-bottom: 6rem;
+}
+.nav-container {
+    width: 5.6rem;
+    height: 5.6rem;
+    margin-right: 2.4rem;
+}
+.logo-container {
+    width: 20.8rem;
+    height: 3.03rem;
+}
+#mob-header {
+    display: none;
+}
+.watchlist-container {
+    margin: 0 10rem 29.3rem;
+
+}
+.watchlist-header {
+    margin-bottom: 6rem;
+}
+.watchlist-h {
+    font-family: Hauora;
+    font-size: 6.4rem;
+    line-height: 2.4rem;
+    color: #00030a;
+    opacity: 0.4;
+    font-weight: 700;
+}
+.watchlist-table-headers {
+    background: #d9d9d9;
+    padding: 0.8rem 0;
+    width: 113rem;
+}
+.watchlist-table-body {
+    background: #fff;
+    padding: 0.8rem 0;
+    border-bottom: 0.1rem solid rgba(0, 0, 0, 0.2);
+    width: 113rem;
+}
+.watchlist-symbol {
+    width: 10.6rem;
+}
+.symbol-h {
+    font-family: Hauora;
+    font-size: 2rem;
+    line-height: 2.4rem;
+    color: #00030a;
+    font-weight: 700;
+}
+.watchlist-name {
+    width: 31.8rem;
+}
+.watchlist-symbol-bg {
+    background: #ec1a1a;
+    border-radius: 0.4rem;
+    padding: 0.4rem;
+    width: 7.4rem;
+    height: 3.2rem;
+    margin-right: 3.2rem;
+    text-align: center;
+}
+.symbol-bg-h {
+    color: #f5f5f5;
+    font-family: Hauora;
+    font-size: 2rem;
+    line-height: 2.4rem;
+    font-weight: 700;
+}
+.name-h {
+    color: #00030a;
+    font-family: Hauora;
+    font-size: 2rem;
+    line-height: 2.4rem;
+    font-weight: 400;
+}
+.green {
+    color: #19c170;
+}
+.watchlist-symbol-bg2 {
+    background: #e14545;
+    border-radius: 0.4rem;
+    padding: 0.4rem;
+    width: 7.4rem;
+    height: 3.2rem;
+    margin-right: 3.2rem;
+    text-align: center;
+}
+.watchlist-symbol-bg3 {
+    background: #baa0a0;
+    border-radius: 0.4rem;
+    padding: 0.4rem;
+    width: 7.4rem;
+    height: 3.2rem;
+    margin-right: 3.2rem;
+    text-align: center;
+}
+.watchlist-symbol-bg4 {
+    background: #0074ff;
+    border-radius: 0.4rem;
+    padding: 0.4rem;
+    width: 7.4rem;
+    height: 3.2rem;
+    margin-right: 3.2rem;
+    text-align: center;
+}
+.watchlist-symbol-bg5 {
+    background: #5c5a5a;
+    border-radius: 0.4rem;
+    padding: 0.4rem;
+    width: 7.4rem;
+    height: 3.2rem;
+    margin-right: 3.2rem;
+    text-align: center;
+}
+.watchlist-symbol-bg6 {
+    background: #fd1313;
+    border-radius: 0.4rem;
+    padding: 0.4rem;
+    width: 7.4rem;
+    height: 3.2rem;
+    margin-right: 3.2rem;
+    text-align: center;
+}
+.watchlist-symbol-bg7 {
+    background: #1bd47b;
+    border-radius: 0.4rem;
+    padding: 0.4rem;
+    width: 7.4rem;
+    height: 3.2rem;
+    margin-right: 3.2rem;
+    text-align: center;
+}
+.watchlist-symbol-bg8 {
+    background: #d56b6b;
+    border-radius: 0.4rem;
+    padding: 0.4rem;
+    width: 7.4rem;
+    height: 3.2rem;
+    margin-right: 3.2rem;
+    text-align: center;
+}
+.watchlist-symbol-bg9 {
+    background: #984848;
+    border-radius: 0.4rem;
+    padding: 0.4rem;
+    width: 7.4rem;
+    height: 3.2rem;
+    margin-right: 3.2rem;
+    text-align: center;
+}
+.watchlist-symbol-bg10 {
+    background: #0d4e9b;
+    border-radius: 0.4rem;
+    padding: 0.4rem;
+    width: 7.4rem;
+    height: 3.2rem;
+    margin-right: 3.2rem;
+    text-align: center;
+}
+.watchlist-symbol-bg11 {
+    background: #0074ff;
+    border-radius: 0.4rem;
+    padding: 0.4rem;
+    width: 7.4rem;
+    height: 3.2rem;
+    margin-right: 3.2rem;
+    text-align: center;
+}
+.footer-container {
+    background: #000718;
+    padding: 4.8rem 10rem 2.5rem;
+}
+.footer-logo {
+    width: 17.9rem;
+    height: 2.6rem;
+    margin-bottom: 2.4rem;
+}
+.desktop-container {
+    width: 20.85rem;
+    height: 8.6rem;
+    border-radius: 0.8rem;
+    background: #1bd47b;
+}
+.desktop-logo {
+    width: 3.75rem;
+    height: 3.13rem;
+    margin: 1.6rem;
+}
+.desktop-p {
+    color: #1f2226;
+    font-family: Hauora;
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+    font-weight: 600;
+}
+.desktop-h {
+    color: #1f2226;
+    font-family: Hauora;
+    font-size: 2rem;
+    line-height: 3rem;
+    font-weight: 700;
+}
+.footer-nav-header {
+    margin-bottom: 3.2rem;
+}
+.footer-nav-item {
+    margin-bottom: 2.4rem;
+}
+.footer-nav-h {
+    font-family: Hauora;
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+    font-weight: 700;
+    color: #f4f5f6;
+}
+.footer-nav-p {
+    font-family: Hauora;
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+    font-weight: 600;
+    color: #f4f5f6;
+}
+.footer-logo-container {
+    margin-right: 41rem;
+}
+.cookies-container {
+    margin: 0 10rem 17rem;
+}
+.cookies-text-container {
+    padding: 3.2rem 9rem 9.5rem;
+    background: #fff;
+    position: relative;
+}
+.cookies-h-container h3 {
+    margin-bottom: 3rem;
+}
+.cookies-h {
+    font-family: Hauora;
+    font-size: 3.2rem;
+    line-height: 4.4rem;
+    font-weight: 400;
+}
+.weight-700 {
+    font-weight: 700;
+}
+.cookies-btn {
+    width: 25rem;
+    height: 6.4rem;
+    margin-top: 4rem;
+    border-radius: 0.8rem;
+    padding: 2rem;
+    background: #1bd47b;
+    position: absolute;
+    right: 9rem;
+    bottom: 3rem;
+}
+.cookies-btn-h {
+    color: #fff;
+    font-family: Hauora;
+    font-size: 2.8rem;
+    line-height: 2.4rem;
+    font-weight: 700;
+}
